@@ -238,6 +238,8 @@ EXEC 01;31  # Unix
 .erb 32
 .haml 32
 .xml 32
+.xsl 32
+.xsd 32
 .rdf 32
 .css 32
 .sass 32
