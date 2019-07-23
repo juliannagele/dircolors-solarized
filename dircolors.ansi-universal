@@ -277,6 +277,8 @@ EXEC 01;31  # Unix
 .mll 32
 .mly 32
 .thy 32
+.ML 32
+.sml 32
 .cabal 32
 
 ### Multimedia formats
