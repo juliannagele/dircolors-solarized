@@ -186,13 +186,13 @@ ORPHAN  05;37;41
 MISSING 05;37;41
 
 # files with execute permission
-EXEC 01;31  # Unix
-.cmd 01;31  # Win
-.exe 01;31  # Win
-.com 01;31  # Win
-.bat 01;31  # Win
-.reg 01;31  # Win
-.app 01;31  # OSX
+EXEC 31  # Unix
+.cmd 31  # Win
+.exe 31  # Win
+.com 31  # Win
+.bat 31  # Win
+.reg 31  # Win
+.app 31  # OSX
 
 #############################################################################
 ### By extension
@@ -287,7 +287,6 @@ EXEC 01;31  # Unix
 .bmp 33
 .cgm 33
 .dl 33
-.dvi 33
 .emf 33
 .eps 33
 .gif 33
@@ -297,14 +296,12 @@ EXEC 01;31  # Unix
 .mng 33
 .pbm 33
 .pcx 33
-.pdf 33
 .pgm 33
 .png 33
 .PNG 33
 .ppm 33
 .pps 33
 .ppsx 33
-.ps 33
 .svg 33
 .svgz 33
 .tga 33
@@ -367,23 +364,24 @@ EXEC 01;31  # Unix
 ### Misc
 
 # Binary document formats and multimedia source
-.doc 31
-.docx 31
-.rtf 31
-.odt 31
-.dot 31
-.dotx 31
-.ott 31
-.xls 31
-.xlsx 31
-.ods 31
-.ots 31
-.ppt 31
-.pptx 31
-.odp 31
-.otp 31
-.fla 31
-.psd 31
+.doc 01;31
+.docx 01;31
+.rtf 01;31
+.dot 01;31
+.dotx 01;31
+.ott 01;31
+.xls 01;31
+.xlsx 01;31
+.ppt 01;31
+.pptx 01;31
+.fla 01;31
+.psd 01;31
+.odt 01;31
+.ods 01;31
+.dvi 01;31
+.pdf 01;31
+.ps 01;31
+.key 01;31
 
 # Archives, compressed
 .7z   1;35
